@@ -1,0 +1,17 @@
+//Coding exercise to determine my age in seconds
+
+var secinmin = 60;
+var mininhr = 60;
+var hrinday = 24;
+var dayinyr = 365;
+var secinhr = secinmin * mininhr;
+var secinday = hrinday * secinhr;
+var secinyr = dayinyr * secinday;
+var age = 35;
+var ageinsec = secinyr * age;
+
+
+ageinsec
+
+
+//end
